@@ -1,0 +1,315 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <title>HTML & CSS</title>
+  </head>
+
+<!-- 
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  -->
+
+  <body>
+    <div width="100%">
+      <nav id="nav_menu">
+        <ul>
+          <li><a href="#html"><span class="acronyms">html</span></a></li>
+          <li><a href="#css"><span class="acronyms">css</span></a></li>
+          <li><a href="#javascript"><span class="other_web">Javascript</span></a></li>
+          <li><a href="#python"><span class="other">Python</span></a></li>
+          <li><a href="#?"><span class="other">?</span></a></li>
+          <li><a href="#??"><span class="other">??</span></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section>
+      <h1 class="titles">HTML</h1>
+        <aside>(HyperText Markup Language)</aside>
+        <br>
+        <hr>
+    </section>
+
+    <section id="html">
+      <h2>Semantic HTML</h2>
+        <aside>*introduces meaning to the code we write</aside>
+      <br>
+      <table>
+        <thead>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="code">&lt;header&gt;</span></td>
+            <td>Header</td>
+            <td>describes the content at the top of a page</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;nav&gt;</span></td>
+            <td>Nav</td>
+            <td>encapsulates the page's navigational links</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;main&gt;</span></td>
+            <td>Main</td>
+            <td>encapsulates the main content of a page between the header/navigation and the footer areas</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;footer&gt;</span></td>
+            <td>Footer</td>
+            <td>includes the page's footer content at the bottom of the page</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+      <br>
+
+      <table>
+        <thead>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><span class="code">&lt;figure&gt;</span></td>
+            <td>Figure</td>
+            <td>used to encapsulate media such as an image, diagram, or code snippet</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;figcaption&gt;</span></td>
+            <td>Figcaption</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+      <h3>Example:</h3>  
+
+<div class="row">
+  <div class="column1">
+    <h2>Code</h2>
+      <p>&lt;figure&gt;<br>
+        &ensp;&ensp;&lt;img src="qwerty.jpg"&gt;<br>
+        &ensp;&ensp;&lt;figcaption&gt;The image shows a cranky Redcoat.&lt;/figcaption&gt;<br>
+          &lt;/figure&gt;</p>
+  </div>
+  <div class="column2">
+    <br>
+    <h2>Result</h2>
+    <p><figure>
+      <img src="./images/50.jpg" width="133" height="200">
+      <figcaption>The image shows a cranky Redcoat.</figcaption>
+    </figure></p>
+  </div>
+</div>
+
+<!-- -->
+<hr>
+
+    <h1>HTML Table Reference</h1>
+    <h2>Table Tags</h2>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;table&gt;</span></td>
+          <td>Table</td>
+          <td>The wrapper element for all HTML tables.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;thead&gt;</span></td>
+          <td>Table Head</td>
+          <td>The set of rows defining the column headers in a table.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tbody&gt;</span></td>
+          <td>Table Body</td>
+          <td>The set of rows containing actual table data.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tr&gt;</span></td>
+          <td>Table Row</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;td&gt;</span></td>
+          <td>Table Data</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tfoot&gt;</span></td>
+          <td>Table Foot</td>
+          <td>The set of rows defining the footer in a table.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Table Attributes</h2>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+            <td><span class="code">colspan</span></td> 
+            <td>Column Span</td>
+            <td>Defines how many columns a td element should span.</td>
+          </tr>
+        <tr>
+          <td><span class="code">rowspan</span></td>
+          <td>Row Span</td>
+          <td>Defines how many rows a td element should span.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <br>
+    
+    </section>
+
+<div class="break"></div>
+
+    <!-- CSS -->
+    <section id="css">
+      <article>
+        <h1 class="titles">CSS</h1>
+          <aside>(Cascading Style Sheets)</aside>
+          <br>
+          <hr>
+
+        
+        <article>
+          <!--inline vs internal vs external-->
+        </article>
+
+        <article>
+          <h2>the &lt;link&gt; tag</h2>>
+            <aside>Is self-closing, and requires the following attributes:</aside>
+          <ol>
+            <li>href</li>
+            <li>type</li>
+            <li>rel</li>
+          </ol>
+        </article>
+
+        <hr>
+        <br>
+        <br>
+      
+
+        <article>
+          <table class="css_tables">
+            <thead class="css">
+              <th>?</th>
+              <th>HTML</th>
+              <th>CSS</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>element</td>
+                <td><span class="code">&lt;h1&gt;</span></td>
+                <td class="code_black">h1 {<br>&emsp;color: red;<br>}</td>
+              </tr>
+              <tr>
+                <td>class</td>
+                <td><span class="code">&lt;class&gt;</span></td>
+                <td class="code_black">.class {<br>&emsp;color: red;<br>}</td>
+              </tr>
+              <tr>
+                <td>id</td>
+                <td><span class="code">&lt;id&gt;</span></td>
+                <td class="code_black">#id {<br>&emsp;color: red;<br>}</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+
+
+
+
+        <h2>CSS Colors</h2>
+          <table>
+            <thead>
+              <th><a href="https://www.color-hex.com/color-names.html">Named Colors</a></th>
+              <th>Hexadecimal</th>
+              <th>RGB</th>
+              <th>HSL</th>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Blue</td>
+                <td>#0000FF</td>
+                <td>(0, 0, 255)</td>
+                <td>(240, 100%, 50%)</td>
+              </tr>
+              <tr>
+                <td>Red</td>
+                <td>#FF0000</td>
+                <td>(255, 0, 0)</td>
+                <td>(0, 100%, 50%)</td>
+              </tr>
+              <tr>
+                <td>Green</td>
+                <td>#008000</td>
+                <td>(0, 255, 0)</td>
+                <td>(120, 100%, 50%)</td>
+              </tr>
+              <tr>
+                <td>Yellow</td>
+                <td>#FFFF00</td>
+                <td>(255, 255, 0)</td>
+                <td>(60, 100%, 50%)</td>
+              </tr>
+            </tbody>
+          </table>
+      </article>
+<br>
+<br>
+<br>
+      <figure><img src="./images/dabox.png" class="center"></figure>
+      <figcaption>The box model</figcaption>
+<br>
+<br>
+      <figure><img src="./images/dabox2.png" class="center"></figure>
+      <figcaption>content-box (default box model)<br>width + padding + border = actual rendered width of an element's box</figcaption>
+<br>
+<br>  
+      <figure><img src="./images/dabox3.png" class="center"></figure>
+      <figcaption>border-box</figcaption>
+<br>
+<br>
+<hr>
+<br>
+<br>
+  </section>
+
+
+
+  </body>
+</html>
